@@ -5,16 +5,16 @@
 
         switch (event.target.dataset.id) {
             case "interest":
-                aiPrompt = "Tell me a cool fun fact";
+                aiPrompt = "Tell me an obscure fact";
                 break;
-            case "wisdom":
-                aiPrompt = "Get me some eastern wisdom";
+            case "mike":
+                aiPrompt = "Tell me a joke on people named Michael";
                 break;
-            case "love":
-                aiPrompt = 'Get me a love quote for an adventerous, curious, beautiful woman'
+            case "server":
+                aiPrompt = 'Get me fun facts about servers/waitresses or a joke about waiters or servers';
                 break;
-            case "laugh":
-                aiPrompt = "Tell me a witty joke"
+            case "ashley":
+                aiPrompt = "Tell me a fun fact about famous people named ashley throughout history"
             default:
             // do nothing
         }
@@ -30,10 +30,10 @@
 </script>
 
 <main bind:this={root}>
-    <button on:click={handleClick} data-id="laugh">Tell Me A Joke</button>
+    <button on:click={handleClick} data-id="mike">Dicking on Mikes</button>
     <button on:click={handleClick} data-id="interest">Fun Fact Generator</button>
-    <button on:click={handleClick} data-id="love">Tell Me Somthing Mushy</button>
-    <button on:click={handleClick} data-id="wisdom">Where is my Sage?</button>
+    <button on:click={handleClick} data-id="ashley">Famous Ashley's Through History</button>
+    <button on:click={handleClick} data-id="server">A Server's Life</button>
 </main>
 
 <style>

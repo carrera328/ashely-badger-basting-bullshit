@@ -6,7 +6,7 @@
     import {DoubleBounce} from "svelte-loading-spinners";
 
     let root;
-    let quote = 'PSST, Fuck work :)';
+    let quote = 'Reach for the stars...';
     let loading = false;
 
     onMount(async () => {
@@ -38,7 +38,7 @@
 </script>
 
 <main class="container" bind:this={root}>
-    <h1 class="title">Hi Alicia...</h1>
+    <h1 class="title">Weed Gets Ashley High</h1>
 	
 
     <div class="quote">
