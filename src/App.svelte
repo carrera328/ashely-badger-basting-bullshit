@@ -38,7 +38,7 @@
 </script>
 
 <main class="container" bind:this={root}>
-    <h1 class="title">Weed Gets Ashley High</h1>
+    <h1 class="title">Knowledge for Ashley</h1>
 	
 
     <div class="quote">
@@ -58,11 +58,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: #325a5c;
+        background-color: #6d1950;
         height: 100vh;
         padding: 2%;
 		width: 100%;
 		box-sizing: border-box;
+        gap: 1rem;
     }
 
     .title {
@@ -71,7 +72,7 @@
     }
 
     .quote {
-        background-color: #97ac9d;
+        background-color: #d48849;
         border-radius: 2.5%;
 		display: flex;
 		flex-direction: column;

@@ -25,5 +25,6 @@
         font-size: .865em;
         width: 100%;
         text-align: center;
+        max-height: 300px;
     }
 </style>
