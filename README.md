@@ -106,4 +106,3 @@ npm run build
 surge public my-project.surge.sh
 ```
 # svelte-as
-# ashely-badger-basting-bullshit
